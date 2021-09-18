@@ -2,9 +2,9 @@
 using System.Threading.Tasks;
 
 namespace DiscordRichPresenceTest {
-    class Program {
-        public async static Task Main() {
-            var client = new DiscordRpcClient("888182779664285716");
+	class Program {
+		public async static Task Main() {
+			var client = new DiscordRpcClient("888182779664285716");
 			client.Initialize();
 			client.SetPresence(new RichPresence() {
 				Details = "VCT Stage 3 - MASTERS BERLIN Day 7",
@@ -18,5 +18,5 @@ namespace DiscordRichPresenceTest {
 			});
 			await Task.Delay(-1);
 		}
-    }
+	}
 }
