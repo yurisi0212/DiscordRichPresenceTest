@@ -8,7 +8,7 @@ namespace DiscordRichPresenceTest {
             var client = new DiscordRpcClient("888182779664285716");
             client.Initialize();
             client.SetPresence(new RichPresence() {
-                Buttons = new Button[2  ] {
+                Buttons = new Button[2] {
                     new Button() {
                         Label = "youtube",
                         Url = "https://www.youtube.com/@VALORANTjp"
